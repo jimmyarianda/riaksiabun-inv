@@ -15,6 +15,10 @@ user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 /vendor/
+docker-config/
+.vscode/
+docker-compose.yml
+*.env.development
 
 # IDE Files
 #-------------------------
