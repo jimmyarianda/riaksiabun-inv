@@ -310,7 +310,7 @@ switch (ENVIRONMENT)
 * LOAD PHP DOT ENV FILE
 * --------------------------------------------------------------------
 *
-* And away we go...
+* And away we go....
 *
 */
 require_once BASEPATH . 'dotenv/autoloader.php';
