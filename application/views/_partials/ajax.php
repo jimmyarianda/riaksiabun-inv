@@ -20,7 +20,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
         $('#tjenis').DataTable({
             "processing": true,
             "language": {
-                "processing": "Sedang memuat....."
+                "processing": "Sedang memuat.....",
+                "searchPlaceholder": "Kata Kunci..."
             },
             "serverSide": true,
             "ajax": "<?=site_url('jenis/get_data');?>",
@@ -48,7 +49,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
         $('#tsatuan').DataTable({
             "processing": true,
             "language": {
-                "processing": "Sedang memuat....."
+                "processing": "Sedang memuat.....",
+                "searchPlaceholder": "Kata Kunci..."
             },
             "serverSide": true,
             "ajax": "<?=site_url('satuan/get_data');?>",
